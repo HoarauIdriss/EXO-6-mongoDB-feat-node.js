@@ -11,7 +11,21 @@ $(function () {
       <a class="btn btn-primary btn-lg" href="#" role="button">Clicker ici pour devenir un expert du back-end</a>
     </p>
   </div>
-  </div>`);
+  </div>
+  
+  
+  <div class="container">
+  <form>
+  <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="First name">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Last name">
+    </div>
+  </div>
+</form>
+</div>`);
     $.ajax({
         url: 'http://localhost:3008/personne',
         type: 'GET',
